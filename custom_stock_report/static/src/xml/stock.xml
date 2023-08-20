@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-inherit="web.SearchPanelContent" t-inherit-mode="extension">
+        <xpath expr="//div[@id='temo']" position="after">
+            <h2>
+                WaqasInheritTest
+            </h2>
+        </xpath>
+    </t>
+
+
+</templates>
